@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 // Replace with your token
-const token = '7139533906:AAFSGbct0PzvPry-MeXU77oK1W3yH6IXAYM';
+const token = 'YOUR_TOKEN';
 const bot = new TelegramBot(token, { polling: true });
 
 const app = express();
